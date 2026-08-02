@@ -1,8 +1,24 @@
 aid: witness-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/witness-systems.png
 name: Witness Systems
-description: Witness Systems is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Witness Systems, Inc. was a workforce optimization software company founded in 1988
+  and headquartered in Roswell, Georgia. It built quality monitoring, call and screen recording, and
+  performance management software for contact centers, sold under the Impact 360 and eQuality product
+  lines, and traded publicly on NASDAQ under the ticker WITS. Verint Systems acquired Witness Systems
+  in 2007 for approximately $950 million, folding its products into Verint's Workforce Optimization
+  suite. The company no longer operates as an independent entity and publishes no public API; its
+  former domain (witnesssystems.com) no longer resolves.
 url: https://raw.githubusercontent.com/api-evangelist/witness-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +26,29 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: verint-systems
+x-acquired-year: 2007
+x-successor: https://www.verint.com
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Workforce Optimization
+- Contact Center
+- Call Recording
+- Quality Monitoring
+- Performance Management
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
